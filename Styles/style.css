@@ -4,3 +4,38 @@
   font-weight: normal;
   font-style: normal;
 }
+
+.header{
+  background-image: url(../Assets/images/banner1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+header .banner-content{
+  text-align: right;
+  margin-right: 230px;
+}
+header .banner-content h1{
+  color: var(--Dark 01, rgba(21, 20, 20, 1));
+  font-size: 65px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+header .banner-content p{
+  color: var(--Dark 02, rgba(68, 67, 67, 1));
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+header .banner-content button{
+  width: 160px;
+  height: 64px;
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #F15B22;
+  color:#FFFFFF;
+}
