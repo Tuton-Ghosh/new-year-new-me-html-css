@@ -20,13 +20,13 @@ header .banner-content{
   margin-right: 230px;
 }
 header .banner-content h1{
-  color: var(--Dark 01, rgba(21, 20, 20, 1));
+  color: rgba(21, 20, 20, 1);
   font-size: 65px;
   font-weight: 600;
   margin-bottom: 25px;
 }
 header .banner-content p{
-  color: var(--Dark 02, rgba(68, 67, 67, 1));
+  color: rgba(115, 114, 114, 1);
   font-size: 16px;
   font-weight: 400;
   margin-top: 0px;
@@ -59,18 +59,45 @@ main{
   margin-top: 370px;
 }
 .pre-year .pre-year-des h1{
-  color: var(--Dark 01, rgba(21, 20, 20, 1));
+  color: rgba(21, 20, 20, 1);
   font-size: 40px;
   font-weight: 600;
 }
 .pre-year .pre-year-des p, .list{
-  color: var(--Dark 02, rgba(68, 67, 67, 1));
+  color: rgba(115, 114, 114, 1);;
   font-size: 16px;
   font-weight: 400;
   list-style: none;
   margin-top: 30px;
 }
-.pre-year .pre-year-des {
-  color: var(--Dark 02, rgba(68, 67, 67, 1));
 
+/* Planning section styles */
+.planning{
+  margin-top: 125px;
+}
+.planning .planning-title{
+  text-align: center;
+  color: var(--Dark 01, rgba(21, 20, 20, 1));
+  font-size: 40px;
+  font-weight: 600;
+}
+.plan-card{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 85px;
+  margin-top: 55px;
+}
+.plan-card .card h1{
+  color: rgba(21, 20, 20, 1);
+  font-size: 30px;
+  font-weight: 600;
+}
+.plan-card .card p{
+  color: rgba(115, 114, 114, 1);
+  font-size: 25px;
+  font-weight: 500;
+}
+.planning .watch{
+  margin-top: 135px;
 }
