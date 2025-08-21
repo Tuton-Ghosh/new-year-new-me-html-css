@@ -98,6 +98,79 @@ main{
   font-size: 25px;
   font-weight: 500;
 }
-.planning .watch{
+.planning .watch-content{
   margin-top: 135px;
+  background-image: url(../Assets/images/watch.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+.planning .watch-content .w-c{
+  max-height: 300px;
+  padding: 25px 617px 147px 64px;  
+}
+.planning .watch-content .w-c h1{
+  color: rgba(255, 255, 255, 1);
+  font-size: 40px;
+  font-weight: 600;
+}
+.planning .watch-content .w-c button{
+  width: 160px;
+  height: 64px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  color: #F15B22;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Footer Section Styles */
+footer{
+  color: rgba(248, 248, 248, 1);
+  padding-top: 130px;
+  padding-bottom: 130px;
+  padding-left: 390px;
+  padding-right: 390px;
+  max-width: fit-content;
+  margin-top: 130px;
+  background-color: rgba(21, 20, 20, 1);
+  display: flex;
+  align-items: first baseline baseline;
+  gap: 330px;
+}
+footer .left-side h1{
+  color: rgba(248, 248, 248, 1);
+  font-size: 45px;
+  font-weight: 600;
+}
+footer .left-side p{
+  margin-top: 16px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 400;
+}
+footer .right-side h1{
+  color: rgba(255, 255, 255, 1);
+  font-size: 25px;
+  font-weight: 400;
+}
+footer .right-side input{
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 245px;
+  height: 60px;
+  border: 0px;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+footer .right-side button{
+  width: 170px;
+  height: 50px;
+  border: 0;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  color: #F15B22;
+  font-size: 16px;
+  font-weight: 600;
 }
